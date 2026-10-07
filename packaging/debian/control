@@ -1,0 +1,14 @@
+Source: ooworker
+Section: utils
+Priority: optional
+Maintainer: openOODA-tools <ops@openooda.org>
+Standards-Version: 4.6.2
+Build-Depends: debhelper-compat (= 13)
+
+Package: ooworker
+Architecture: amd64
+Depends: libc6
+Description: TASK RUNNER
+ Micro-task scheduling worker communicating over stdio pipes with capability constraints.
+ Capability-bounded openOODA utility with zero ambient authority,
+ oote theme palettes, and native Model Context Protocol (MCP) surface.
